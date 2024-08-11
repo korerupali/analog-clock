@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    background-color: rgb(130, 221, 221);
+    padding: 10px 0;
+}
+
+#clock {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    background: url('assets/clock-without-hands.png') no-repeat;
+    margin: auto;
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: rgb(199, 11, 11);
+    border-radius: 15px;
+    transform-origin: bottom;
+
+
+}
+
+#hour {
+    width: 1.6%;
+    height: 23%;
+    left: 49.45%;
+    top: 26.6%;
+    opacity: 0.8;
+ 
+}
+
+#minute {
+    width: 1.4%;
+    height: 27%;
+    left: 49.45%;
+    top: 22.6%;
+    opacity: 0.8;
+  
+}
+
+#second {
+    width: 1%;
+    height: 33%;
+    left: 49.75%;
+    top: 16.65%;
+    opacity: 0.8;
+  
+}
